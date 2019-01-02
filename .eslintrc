@@ -23,17 +23,10 @@
 
     "strict": 0,
     "no-unused-vars": 0,
-    "no-param-reassign": 1,
-    "no-empty-function": 1,
-    // "import/no-unresolved": [2, {
-    //   "ignore": [
-    //     "^effects",
-    //     "^utils",
-    //     "refect"
-    //   ]
-    // }]
+    "no-param-reassign": 1
   },
   "plugins": [
-    "react"
+    "react",
+    "eslint-plugin-import"
   ]
 }
